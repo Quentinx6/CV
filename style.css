@@ -40,6 +40,8 @@ h1
     background-color: #DD5735;
     display: inline-block;
     padding: 10px;
+    border-radius: 10px;
+
 }
 .menua:hover
 {
@@ -57,6 +59,7 @@ h1
     margin-right: auto;
     width: 800px;
     margin-top: 20px;
+    padding-left: 50px;
 }
 main
 {
@@ -66,9 +69,33 @@ main
 }
 .image
 {
-    float: left ;
+    float: left;
+    margin-right: 100px;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 .floatnone
 {
     clear: both;
+    margin-bottom: 15px
+}
+.texteexpe
+{
+    margin-top: 100px;
+}
+h2
+{
+    color: ;
+}
+h3
+{
+    text-align: center;
+    color: #DD5735;
+    font-size: 30px;
+}
+.capitaine
+{
+    margin-left: 30px;
+    width: 250px;
+    display: inline-block;
 }
