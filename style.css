@@ -115,6 +115,9 @@ h3
         display: block;
         text-align: center;
     }
+    .menuul a{
+        font-size: 50px;
+    }
     .menuul{
         padding-left: 0;
     }
