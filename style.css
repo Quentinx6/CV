@@ -26,3 +26,41 @@ h1
     margin-top : 0;
     padding: 50px;
 }
+
+.menua
+{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    font-size: 25px;
+}
+
+.menuli
+{
+    background-color: #DD5735;
+    display: inline-block;
+    padding: 10px;
+}
+.menua:hover
+{
+    color: #DD5735;
+    transition: 0.3s;
+}
+.menuli:hover
+{
+    background-color: whitesmoke;
+    transition: 0.3s;
+}
+.menuul
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    margin-top: 20px;
+}
+main
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
