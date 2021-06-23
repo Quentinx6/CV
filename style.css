@@ -3,17 +3,12 @@ body
     box-sizing: border-box;
     border: none;
     margin: 0;
-}
-
-main header
-{
-    max-width: 1200px;
-    margin: auto;
-    height: auto;
+    width: 100%;
+    background-color: #F0F8FF;
 }
 header
 {
-    background: darkgray;
+    background: #07415D;
     color: #DD5735;
     width: 100%;
     margin: auto;
@@ -25,6 +20,7 @@ h1
 {
     margin-top : 0;
     padding: 50px;
+    text-shadow: 1px 1px #F0F8FF;
 }
 
 .menua
@@ -65,7 +61,7 @@ main
 {
     margin-left: auto;
     margin-right: auto;
-    width: 1200px;
+    width: 90%;
 }
 .image
 {
@@ -83,10 +79,6 @@ main
 {
     margin-top: 100px;
 }
-h2
-{
-    color: ;
-}
 h3
 {
     text-align: center;
@@ -98,4 +90,40 @@ h3
     margin-left: 30px;
     width: 250px;
     display: inline-block;
+}
+.paragraphesport
+{
+    font-size: 20px;
+    margin-top: 25px;
+    padding-top: 35px;
+}
+#etude
+{
+    margin-top: 50px;
+    height: 50px;
+}
+
+@media (max-width: 1200px) {
+    .image{
+        margin-right: 30px;
+        margin-bottom: 5px;
+    }
+    .texteexpe{
+        margin-top: 50px;
+    }
+    .menuli{
+        display: block;
+        text-align: center;
+    }
+    .menuul{
+        padding-left: 0;
+    }
+    h1
+    {
+        font-size: 60px;
+    }
+    header
+    {
+        height: 250px;
+    }
 }
