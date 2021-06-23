@@ -64,3 +64,11 @@ main
     margin-right: auto;
     width: 1200px;
 }
+.image
+{
+    float: left ;
+}
+.floatnone
+{
+    clear: both;
+}
