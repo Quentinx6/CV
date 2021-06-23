@@ -125,6 +125,25 @@ h3
     {
         font-size: 60px;
     }
+    h2
+    {
+        font-size: 60px;
+    }
+    .capitaine
+    {
+        width: 75%;
+    }
+    .capitaine li
+    {
+        font-size: 45px;
+        padding-top: 0;
+    }
+    .titreh3{
+        font-size: 60px;
+    }
+    .paragraphesport{
+        font-size: 30px;
+    }
     header
     {
         height: 250px;
