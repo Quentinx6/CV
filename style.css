@@ -38,6 +38,7 @@ h1
     padding: 10px;
     border-radius: 10px;
 
+
 }
 .menua:hover
 {
@@ -102,7 +103,15 @@ h3
     margin-top: 50px;
     height: 50px;
 }
+#divetude
+{
+    margin: 100px;
+}
 
+.espace
+{
+    margin-top: 50px;
+}
 @media (max-width: 1200px) {
     .image{
         margin-right: 30px;
@@ -147,5 +156,9 @@ h3
     header
     {
         height: 250px;
+    }
+    #divetude
+    {
+        margin: 0;
     }
 }
