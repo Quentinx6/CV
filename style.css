@@ -16,6 +16,22 @@ header
     text-align: center;
     border: none;
 }
+footer
+{
+    background: #07415D;
+    color: #DD5735;
+    width: 100%;
+    margin-top: 100px;
+    height: 150px;
+    border: none;
+}
+.footertexte
+{
+    color: slategrey;
+    font-size: 20px;
+    padding-top: 75px;
+    padding-left: 25px;
+}
 h1
 {
     margin-top : 0;
@@ -79,6 +95,7 @@ main
 .texteexpe
 {
     margin-top: 100px;
+    color: #07415D;
 }
 h3
 {
@@ -97,13 +114,14 @@ h3
     font-size: 20px;
     margin-top: 25px;
     padding-top: 35px;
+    color: #708090;
 }
 #etude
 {
     margin-top: 50px;
     height: 50px;
 }
-#divetude
+.divetude
 {
     margin: 100px;
 }
@@ -157,7 +175,7 @@ h3
     {
         height: 250px;
     }
-    #divetude
+    .divetude
     {
         margin: 0;
     }
