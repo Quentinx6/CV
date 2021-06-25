@@ -34,6 +34,10 @@ body
 {
     background-color: slategrey;
 }
+.darkmode h1
+{
+    text-shadow: 1px 1px #000000;
+}
 header
 {
     background: #07415D;
