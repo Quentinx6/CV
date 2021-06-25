@@ -238,7 +238,7 @@ button:hover
     {
         width: 75%;
     }
-    p
+    .paragraphesport
     {
         font-size: 45px;
     }
@@ -249,9 +249,6 @@ button:hover
     }
     .titreh3{
         font-size: 60px;
-    }
-    .paragraphesport{
-        font-size: 30px;
     }
     header
     {
