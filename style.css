@@ -6,6 +6,34 @@ body
     width: 100%;
     background-color: #F0F8FF;
 }
+.darkmode
+{
+    background-color: #001231;
+}
+.darkmode h2
+{
+    color: #F0F8FF;
+}
+.darkmode h3
+{
+    color: #F0F8FF;
+}
+.darkmode p
+{
+    color: #d5dcef;
+}
+.darkmode ul.capitaine li
+{
+    color: #d5dcef;
+}
+.darkmode .menuli
+{
+    background-color: #280d05;
+}
+.darkmode .menuli:hover
+{
+    background-color: slategrey;
+}
 header
 {
     background: #07415D;
@@ -129,6 +157,15 @@ h3
 .espace
 {
     margin-top: 50px;
+}
+.lienfb
+{
+    text-decoration: none;
+}
+.lienfb:hover
+{
+    color: #DD5735;
+    transition: 0.3s;
 }
 @media (max-width: 1200px) {
     .image{
