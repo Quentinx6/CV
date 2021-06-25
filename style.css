@@ -8,7 +8,8 @@ body
 }
 .darkmode
 {
-    background-color: #001231;
+    /*background-color: #001231;*/
+    background-color: black;
 }
 .darkmode h2
 {
