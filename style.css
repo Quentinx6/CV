@@ -8,8 +8,7 @@ body
 }
 .darkmode
 {
-    /*background-color: #001231;*/
-    background-color: black;
+    background-color: #001231;
 }
 .darkmode h2
 {
@@ -118,7 +117,7 @@ main
     margin-right: auto;
     width: 90%;
 }
-#pourmoi
+.pourmoi
 {
     text-align: center;
 }
