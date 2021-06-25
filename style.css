@@ -116,9 +116,13 @@ main
 {
     text-align: center;
 }
-#pourmoi img {
+.darkmode #pourmoi img {
     border-radius: 55px;
     box-shadow: 0px 0px 4px 4px rgba(233, 232, 232, 0.6);
+}
+#pourmoi img {
+    border-radius: 55px;
+    box-shadow: 0px 0px 4px 4px rgba(62, 61, 61, 0.6);
 }
 .image
 {
@@ -179,6 +183,10 @@ h3
 {
     color: #DD5735;
     transition: 0.3s;
+}
+#bouton
+{
+    padding: 5px;
 }
 @media (max-width: 1200px) {
     .image{
