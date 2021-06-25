@@ -14,10 +14,7 @@ body
 {
     color: #F0F8FF;
 }
-.darkmode h3
-{
-    color: #F0F8FF;
-}
+
 .darkmode p
 {
     color: #d5dcef;
@@ -37,6 +34,14 @@ body
 .darkmode h1
 {
     text-shadow: 1px 1px #000000;
+}
+.darkmode button
+{
+    background-color: #280d05;
+}
+.darkmode button:hover
+{
+    background-color: slategrey;
 }
 header
 {
@@ -170,7 +175,26 @@ h3
 {
     margin: 100px;
 }
-
+#pourlebouton{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+button
+{
+    background-color: #DD5735;
+    border-radius: 10px;
+    color: #e7e7e7;
+    border: none;
+    font-size: 25px;
+    padding: 10px;
+}
+button:hover
+{
+    background-color: whitesmoke;
+    transition: 0.3s;
+    color: #DD5735;
+}
 .espace
 {
     margin-top: 50px;
@@ -183,10 +207,6 @@ h3
 {
     color: #DD5735;
     transition: 0.3s;
-}
-#bouton
-{
-    padding: 5px;
 }
 @media (max-width: 1200px) {
     .image{
