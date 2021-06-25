@@ -238,6 +238,10 @@ button:hover
     {
         width: 75%;
     }
+    p
+    {
+        font-size: 45px;
+    }
     .capitaine li
     {
         font-size: 45px;
