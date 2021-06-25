@@ -90,8 +90,6 @@ h1
     display: inline-block;
     padding: 10px;
     border-radius: 10px;
-
-
 }
 .menua:hover
 {
@@ -121,11 +119,11 @@ main
 {
     text-align: center;
 }
-.darkmode #pourmoi img {
+.darkmode #laphoto {
     border-radius: 55px;
     box-shadow: 0px 0px 4px 4px rgba(233, 232, 232, 0.6);
 }
-#pourmoi img {
+#laphoto {
     border-radius: 55px;
     box-shadow: 0px 0px 4px 4px rgba(62, 61, 61, 0.6);
 }
@@ -194,6 +192,12 @@ button:hover
     background-color: whitesmoke;
     transition: 0.3s;
     color: #DD5735;
+}
+.border{
+    border-radius: 50px;
+}
+.bordersport{
+    border-radius: 10px;
 }
 .espace
 {
