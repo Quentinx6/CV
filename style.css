@@ -288,4 +288,12 @@ button:hover
         font-size: 50px;
         padding: 30px;
     }
+    .footertexte
+    {
+        font-size: 35px;
+    }
+    .linkedin
+    {
+        padding-right: 150px;
+    }
 }
