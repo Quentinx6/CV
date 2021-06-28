@@ -62,13 +62,7 @@ footer
     height: 150px;
     border: none;
 }
-.footertexte
-{
-    color: slategrey;
-    font-size: 20px;
-    padding-top: 75px;
-    padding-left: 25px;
-}
+
 h1
 {
     margin-top : 0;
@@ -133,6 +127,10 @@ main
     margin-right: 100px;
     margin-bottom: 15px;
     margin-top: 10px;
+}
+.paraprofil
+{
+    display: inline-block;
 }
 
 .floatnone
@@ -212,6 +210,20 @@ button:hover
     color: #DD5735;
     transition: 0.3s;
 }
+.linkedin
+{
+    float: right;
+    padding-top: 75px;
+    padding-right: 25px;
+}
+.footertexte
+{
+    color: slategrey;
+    font-size: 20px;
+    padding-top: 75px;
+    padding-left: 25px;
+    display: inline-block;
+}
 @media (max-width: 1200px) {
     .image{
         margin-right: 30px;
@@ -261,5 +273,19 @@ button:hover
     .divetude
     {
         margin: 0;
+    }
+    .profil
+    {
+        display: inline-block;
+        text-align: center;
+    }
+    #pourlelinkedin
+    {
+        display: flex;
+    }
+    #bouton
+    {
+        font-size: 50px;
+        padding: 30px;
     }
 }
