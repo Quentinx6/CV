@@ -291,6 +291,8 @@ button:hover
     .footertexte
     {
         font-size: 35px;
+        text-align: center;
+        padding-top: 20px;
     }
     .linkedin
     {
