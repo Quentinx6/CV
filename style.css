@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("Roboto/Roboto-Bold.ttf");
+}
+
 body
 {
     box-sizing: border-box;
@@ -35,6 +40,22 @@ body
 {
     text-shadow: 1px 1px #000000;
 }
+.darkmode #li
+{
+    color: #d5dcef;
+}
+.darkmode #phone
+{
+    list-style-image: url("image/phoneblanc.png");
+}
+.darkmode #car
+{
+    list-style-image: url("image/carblanc.png");
+}
+.darkmode #email
+{
+    list-style-image: url("image/emailblanc.png");
+}
 .darkmode button
 {
     background-color: #280d05;
@@ -46,7 +67,6 @@ body
 header
 {
     background: #07415D;
-    color: #DD5735;
     width: 100%;
     margin: auto;
     height: 150px;
@@ -62,12 +82,35 @@ footer
     height: 150px;
     border: none;
 }
-
+#liste
+{
+    text-align: center;
+}
+#li
+{
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 0;
+}
+#phone
+{
+    list-style-image: url("image/phone.png");
+}
+#car
+{
+    list-style-image: url("image/car.png");
+}
+#email
+{
+    list-style-image: url("image/email.png");
+}
 h1
 {
     margin-top : 0;
     padding: 50px;
     text-shadow: 1px 1px #F0F8FF;
+    display: inline-block;
+    color: #DD5735;
 }
 
 .menua
@@ -109,10 +152,10 @@ main
     margin-right: auto;
     width: 90%;
 }
-.pourmoi
-{
+#center {
     text-align: center;
 }
+
 .darkmode #laphoto {
     border-radius: 55px;
     box-shadow: 0px 0px 4px 4px rgba(233, 232, 232, 0.6);
@@ -120,7 +163,13 @@ main
 #laphoto {
     border-radius: 55px;
     box-shadow: 0px 0px 4px 4px rgba(62, 61, 61, 0.6);
+    text-align: center;
 }
+.pourmoi
+{
+    text-align: center;
+}
+
 .image
 {
     float: left;
