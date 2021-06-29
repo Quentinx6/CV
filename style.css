@@ -323,6 +323,18 @@ button:hover
     {
         font-size: 35px;
     }
+    #phone
+    {
+        list-style-image: url("image/phone.png");
+    }
+    #car
+    {
+        list-style-image: url("image/car.svg");
+    }
+    #email
+    {
+        list-style-image: url("image/email.png");
+    }
     .divetude
     {
         margin: 0;
