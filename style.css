@@ -319,6 +319,10 @@ button:hover
     {
         height: 250px;
     }
+    #li
+    {
+        font-size: 35px;
+    }
     .divetude
     {
         margin: 0;
