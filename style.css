@@ -46,15 +46,15 @@ body
 }
 .darkmode #phone
 {
-    list-style-image: url("image/phoneblanc.png");
+    list-style-image: url("image/phoneblanc.svg");
 }
 .darkmode #car
 {
-    list-style-image: url("image/carblanc.png");
+    list-style-image: url("image/carblanc.svg");
 }
 .darkmode #email
 {
-    list-style-image: url("image/emailblanc.png");
+    list-style-image: url("image/emailblanc.svg");
 }
 .darkmode button
 {
@@ -94,15 +94,15 @@ footer
 }
 #phone
 {
-    list-style-image: url("image/phone.png");
+    list-style-image: url("image/phone.svg");
 }
 #car
 {
-    list-style-image: url("image/car.png");
+    list-style-image: url("image/car.svg");
 }
 #email
 {
-    list-style-image: url("image/email.png");
+    list-style-image: url("image/email.svg");
 }
 h1
 {
@@ -325,7 +325,7 @@ button:hover
     }
     #phone
     {
-        list-style-image: url("image/phone.png");
+        list-style-image: url("image/phone.svg");
     }
     #car
     {
@@ -333,7 +333,7 @@ button:hover
     }
     #email
     {
-        list-style-image: url("image/email.png");
+        list-style-image: url("image/email.svg");
     }
     .divetude
     {
