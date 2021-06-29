@@ -51,6 +51,7 @@ body
 .darkmode #car
 {
     list-style-image: url("image/carblanc.svg");
+    color: #d5dcef;
 }
 .darkmode #email
 {
