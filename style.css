@@ -46,16 +46,16 @@ body
 }
 .darkmode #phone
 {
-    list-style-image: url("image/phoneblanc.svg");
+    list-style-image: url("image/phoneblanc.png");
 }
 .darkmode #car
 {
-    list-style-image: url("image/carblanc.svg");
+    list-style-image: url("image/carblanc.png");
     color: #d5dcef;
 }
 .darkmode #email
 {
-    list-style-image: url("image/emailblanc.svg");
+    list-style-image: url("image/emailblanc.png");
 }
 .darkmode button
 {
