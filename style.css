@@ -10,6 +10,7 @@ body
     margin: 0;
     width: 100%;
     background-color: #F0F8FF;
+    font-family: "Roboto";
 }
 .darkmode
 {
@@ -65,6 +66,37 @@ body
 {
     background-color: slategrey;
 }
+.darkmode .langage
+{
+    list-style-image: url("image/htmlblanc.png");
+}
+.dl
+{
+    display: flex;
+    margin: 50px auto;
+}
+.dl:hover
+{
+
+}
+.langage
+{
+    position: relative;
+}
+.pl
+{
+    opacity: 0;
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
+    color: slategrey;
+}
+.dl:hover .pl
+{
+    opacity: 1;
+    transition: 1s;
+}
+
 header
 {
     background: #07415D;
@@ -228,7 +260,7 @@ h3
 }
 button
 {
-    background-color: #DD5735;
+    background-color: #001231;
     border-radius: 10px;
     color: #e7e7e7;
     border: none;
@@ -285,12 +317,20 @@ button:hover
     .menuli{
         display: block;
         text-align: center;
+        padding: 0;
+        margin: 10px 0;
     }
     .menuul a{
         font-size: 50px;
+        padding: 10px 100px;
+        text-align: center;
     }
     .menuul{
         padding-left: 0;
+    }
+    #menua-exp
+    {
+        padding: 0;
     }
     h1
     {
@@ -356,12 +396,21 @@ button:hover
     }
     .footertexte
     {
-        font-size: 35px;
+        font-size: 30px;
         text-align: center;
         padding-top: 20px;
     }
     .linkedin
     {
         padding-right: 150px;
+    }
+    .dl{
+        display: block;
+        text-align: center;
+    }
+    .pl
+    {
+        font-size: 30px;
+        opacity: 1;
     }
 }
