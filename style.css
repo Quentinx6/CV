@@ -10,7 +10,7 @@ body
     margin: 0;
     width: 100%;
     background-color: #F0F8FF;
-    font-family: "Roboto";
+    font-family: "Roboto", "sans-serif", "arial";
 }
 .darkmode
 {
