@@ -35,11 +35,11 @@ body
 }
 .darkmode .menuli
 {
-    background-color: #280d05;
+    background-color: #112e65;
 }
 .darkmode .menuli:hover
 {
-    background-color: slategrey;
+    background-color: #317cc6;
 }
 .darkmode h1
 {
@@ -64,11 +64,11 @@ body
 }
 .darkmode button
 {
-    background-color: #280d05;
+    background-color: #112e65;
 }
 .darkmode button:hover
 {
-    background-color: slategrey;
+    background-color: #317cc6;
 }
 .darkmode .langage
 {
