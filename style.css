@@ -2,7 +2,10 @@
     font-family: "Roboto";
     src: url("Roboto/Roboto-Bold.ttf");
 }
-
+html
+{
+    scroll-behavior: smooth;
+}
 body
 {
     box-sizing: border-box;
@@ -114,6 +117,22 @@ footer
     margin-top: 100px;
     height: 150px;
     border: none;
+}
+.darkmode #btn-top
+{
+    color: whitesmoke;
+
+}
+#btn-top
+{
+    position: fixed;
+    right: 30px;
+    bottom: 10px;
+    cursor: pointer;
+}
+#btn-img
+{
+    cursor: pointer;
 }
 #liste
 {
@@ -266,6 +285,7 @@ button
     border: none;
     font-size: 25px;
     padding: 10px;
+    cursor: pointer;
 }
 button:hover
 {
@@ -296,7 +316,7 @@ button:hover
 {
     float: right;
     padding-top: 75px;
-    padding-right: 25px;
+    padding-right: 155px;
 }
 .footertexte
 {
