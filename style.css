@@ -329,7 +329,7 @@ button:hover
 @media (max-width: 1200px) {
     html
     {
-        scroll-behavior: smooth;
+        scroll-snap-type: x proximity;
     }
     .image{
         margin-right: 30px;
