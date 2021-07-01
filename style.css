@@ -327,6 +327,10 @@ button:hover
     display: inline-block;
 }
 @media (max-width: 1200px) {
+    html
+    {
+        scroll-behavior: smooth;
+    }
     .image{
         margin-right: 30px;
         margin-bottom: 5px;
