@@ -5,6 +5,7 @@
 html
 {
     scroll-behavior: smooth;
+
 }
 body
 {
@@ -102,7 +103,9 @@ body
 
 header
 {
-    background: #07415D;
+    background-image: url("image/fond4k.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
     width: 100%;
     margin: auto;
     height: 150px;
@@ -330,6 +333,7 @@ button:hover
     html
     {
         scroll-snap-type: x proximity;
+        scroll-behavior: smooth;
     }
     .image{
         margin-right: 30px;
